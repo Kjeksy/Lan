@@ -570,8 +570,8 @@ function handleImgError(imgEl, gameId, attempt){
 // the setup SQL. The anon key is meant to be public — it only allows what
 // the row-level security policies below permit (insert/select/delete on
 // these two tables, nothing else).
-const SUPABASE_URL = "YOUR_SUPABASE_URL";        // e.g. https://xxxxxxxx.supabase.co
-const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
+const SUPABASE_URL = "https://cvsuxjfwlxnnpsulelzh.supabase.co/rest/v1/";        // e.g. https://xxxxxxxx.supabase.co
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN2c3V4amZ3bHhubnBzdWxlbHpoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgzNDg1MTYsImV4cCI6MjEwMzkyNDUxNn0.8Q_zSvUqLJ8YSvKFb3QREbVHy_0Yp1NnODZCy31eQ54";
 
 let votes = {};        // { gameId: { voterName: true } }
 let customGames = [];  // games added via Steam search
